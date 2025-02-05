@@ -26,7 +26,7 @@ public class PracticeProblem {
 	public static void q2() {
 		//Write question 2 code here
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		int num1;
 		num1 = in.nextInt();
 		in.nextLine();
@@ -47,16 +47,16 @@ public class PracticeProblem {
 	public static void q3() {
 		//Write question 3 code here
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		String text=in.nextLine();
-		System.out.println(text +" was the text you wrote.");
-		
+		System.out.print(text +" was the text you wrote");
+		System.out.println();
 	}
 
 	public static void q4() {
 		//Write question 4 code here
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		int num3;
 		num3 = in.nextInt();
 		in.nextLine();
@@ -67,21 +67,22 @@ public class PracticeProblem {
 	public static void q5() {
 		//Write question 5 code here
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		Boolean flag = in.nextBoolean();
 		in.nextLine();
-		System.out.println(flag + "is a boolean.");
+		System.out.print(flag + " is a boolean");
+		System.out.println();
 	}
 
 	public static void q6() {
 		//Write question 6 code here
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		Double num4;
 		num4 = in.nextDouble();
 		in.nextLine();
-		System.out.println(num4);
-
+		System.out.print(num4 - 3.2);
+		System.out.println();
 	}
 
 }
