@@ -25,7 +25,7 @@ class Notes {
 
 		//Double
 
-		System.out.print("Input a number: ");
+		System.out.print("In: ");
 		double num2 = in.nextDouble();
 		in.nextLine(); //clear the scanner - do after nextInt, nextDouble and nextBoolean
 
