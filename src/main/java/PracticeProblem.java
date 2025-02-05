@@ -18,6 +18,7 @@ public class PracticeProblem {
 		String prompt;
 		prompt = in.nextLine();
 		System.out.print(prompt);
+		System.out.println();
 
 		
 	}
